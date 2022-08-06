@@ -1,11 +1,11 @@
 //Yeni isim giriş fonksiyonu
 function newName() {
   let name
-  name = prompt('İsminiz nedir?')
-  if (!name) {
-    alert("Ad kısmı boş bırakılamaz")
-    return newName();
-  } else if (name) {
+  name = prompt('İsminiz nedir?') //name değişkenimize prompt ile kullanıcıdan veri girişi sağladık
+  if (!name) { //eğer name değişkeninin içi boş ise;
+    alert("Ad kısmı boş bırakılamaz") //uyarı göster,
+    return newName();                 //aynı fonksiyonu tekrar çalıştır.
+  } else if (name) { //eğer name değişkeninin içi dolu ise;
     document.querySelector("#myName").innerHTML = `${name}! ` //id'si myName olan elementi bul ve içeriğine temperal literals yöntemiyle name değişkenin içeriğini ata
   }
 }
