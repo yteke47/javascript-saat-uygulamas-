@@ -1,0 +1,32 @@
+body {
+  background: black;
+  font-family: sans-serif;
+}
+
+.jumbotron div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#myName {
+  cursor: pointer;
+}
+
+.clock {
+  text-align: center;
+  color: #e98208;
+  font-size: 60px;
+  letter-spacing: 7px;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
+img {
+  width: 150px;
+}
