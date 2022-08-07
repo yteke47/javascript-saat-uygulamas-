@@ -46,6 +46,9 @@ function showTime() {
    } */
 
   switch (day) { //Day değişkeni hangi case'e eşit olursa o blok çalışır.
+    case 0:
+      day = day = "Pazar"
+      break;
     case 1:
       day = day = "Pazartesi"
       break;
@@ -63,9 +66,6 @@ function showTime() {
       break;
     case 6:
       day = day = "Cumartesi"
-      break;
-    case 7:
-      day = day = "Pazar"
       break;
   }
 
